@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 
-#  BATTERY PACKAGES
+# BATTERY PACKAGES
 import csv
 import sys
 
-#    LOCAL PACKAGES
+# LOCAL PACKAGES
 from utility import make_resource
 
 def interface(inpath):
+    """
+    line by line processing of csv, and migration into local storage
+    """
     with open(inpath, 'r') as fd:
         src    = csv.reader(fd, delimiter='|')
         header = next(src) # burn header
