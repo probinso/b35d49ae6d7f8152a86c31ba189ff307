@@ -1,4 +1,5 @@
 # ComStore
+This is my solution to the Comscore programming challenge. The program is written in Python3 and relies on `python-xdg` and `argparse`.
 
 ```
 ./bin/store ./indata.psv
