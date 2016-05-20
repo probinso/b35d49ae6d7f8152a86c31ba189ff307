@@ -8,12 +8,12 @@ from glob import iglob as glob # iglob is a generator
 
 # REMOTE RESOURCES
 import xdg.BaseDirectory
-LOCATION=xdg.BaseDirectory.save_data_path('ComScore')
+LOCATION=xdg.BaseDirectory.save_data_path('PHILIPROBINSON.ComStore')
 
 
 def _path_resource(*paths):
     if not paths:
-        paths = ['.']
+        return LOCATION
     return osp.join(LOCATION, *paths)
 
 
