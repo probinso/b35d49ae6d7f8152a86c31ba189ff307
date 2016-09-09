@@ -7,13 +7,11 @@ import os.path as osp
 from glob import iglob as glob # iglob is a generator
 
 # REMOTE RESOURCES
-import xdg.BaseDirectory
-LOCATION=xdg.BaseDirectory.save_data_path('PHILIPROBINSON.ComStore')
+from appdirs import user_data_dir
+LOCATION=user_data_dir('PHILIPROBINSON.ComStore', 'SadClownFactory')
 
 
 def _path_resource(*paths):
-    if not paths:
-        return LOCATION
     return osp.join(LOCATION, *paths)
 
 
@@ -26,8 +24,7 @@ def make_resource(*paths):
     """
     *dirs, filename = paths
     path = _path_resource(*dirs)
-    if not osp.exists(path):
-        os.makedirs(path)
+    os.makedirs(path, exist_ok=True)
     return osp.join(path, filename)
 
 
