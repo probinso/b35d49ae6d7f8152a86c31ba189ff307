@@ -10,7 +10,6 @@ from glob import iglob as glob # iglob is a generator
 from appdirs import user_data_dir
 LOCATION=user_data_dir('PHILIPROBINSON.ComStore', 'SadClownFactory')
 
-
 def _path_resource(*paths):
     return osp.join(LOCATION, *paths)
 
