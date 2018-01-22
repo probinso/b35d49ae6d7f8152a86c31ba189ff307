@@ -22,6 +22,7 @@ def interface(inpath):
                 dst.writerow(header)
                 dst.writerow(row)
 
+
 def cli_interface():
     """
     by convention it is helpful to have a wrapper_cli method that interfaces
