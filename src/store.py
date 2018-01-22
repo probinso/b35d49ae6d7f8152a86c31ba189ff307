@@ -7,6 +7,7 @@ import sys
 # LOCAL PACKAGES
 from utility import make_resource
 
+
 def interface(inpath):
     """
     line by line processing of csv, and migration into local storage
