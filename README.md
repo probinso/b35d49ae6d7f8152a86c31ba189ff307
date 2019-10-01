@@ -1,4 +1,4 @@
-# ComStore
+# tore
 This is my solution to the Comscore programming challenge. The program is written in Python3 and relies on 
 - `appdirs`
 - `argparse`.
@@ -28,7 +28,7 @@ This location usually exists in linux systems at `~/.local/share/PHILIPROBINSON.
 
 # PROBLEM DESCRIPTION
 
-comScore Coding Challenge
+Coding Challenge
 
 This
  programming challenge entails creating a highly simplified version of the typical comScore software platform for measuring media.  The challenge consists of four sections.  You are neither required nor expected to complete all four sections.  The purpose of
