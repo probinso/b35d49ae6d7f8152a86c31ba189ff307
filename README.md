@@ -1,4 +1,4 @@
-# tore
+# Store
 This is my solution to the Comscore programming challenge. The program is written in Python3 and relies on 
 - `appdirs`
 - `argparse`.
