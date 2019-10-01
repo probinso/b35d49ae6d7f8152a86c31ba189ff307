@@ -1,6 +1,6 @@
 # PROBLEM DESCRIPTION
 
-comScore Coding Challenge
+Coding Challenge
 
 This
  programming challenge entails creating a highly simplified version of the typical comScore software platform for measuring media.  The challenge consists of four sections.  You are neither required nor expected to complete all four sections.  The purpose of
