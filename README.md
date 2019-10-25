@@ -139,15 +139,13 @@ Add
  a filter function which evaluates boolean AND and OR expressions in the following format:
 
 ```
-STB="stb1" AND TITLE="the
- hobbit" OR TITLE="unbreakable"
+STB="stb1" AND TITLE="the hobbit" OR TITLE="unbreakable"
 ```
 Assume
  AND has higher precedence than OR.  Parens can be added to change the above statement to the more logical:
 
  ```
-STB="stb1" AND (TITLE="the
- hobbit" OR TITLE="unbreakable")
+STB="stb1" AND (TITLE="the hobbit" OR TITLE="unbreakable")
 ```
 Example:
 ```
